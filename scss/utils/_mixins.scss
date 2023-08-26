@@ -1,0 +1,38 @@
+@mixin bg-body {
+    /* background-color: $bg-color; */
+    background-image: url(../assets/images/g.jpg);
+    /* background-color: rgba(0, 0, 0, 0.1);  */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+@mixin container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    /* min-width: 310px; */
+}
+
+@mixin title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: $font-title;
+    font-weight: 700;
+}
+
+@mixin subtitle {
+    font-family: $font-subtitle;
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: lowercase;
+}
+
+@mixin main-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: right;
+}

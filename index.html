@@ -8,11 +8,46 @@
     <link rel="stylesheet" href="./scss/main.css">
 </head>
 <body>
-    <div class="header">
-        <h1>reading club blog</h1>
-        <h2>welcome</h2>
-        <h3>here you can find the best posts of our club members</h3>
-    </div>
+    <article class="page">
+        <div class="container">
+            <header class="header">
+                <h1>reading club blog</h1>
+                <h3>here you can find the best posts of our club members</h3>
+            </header>
+
+            <main class="main">
+                <section class="users">
+                    <div class="users__form">
+                        <form action="">
+                            <span class="icon">
+                                <img src="./assets/icons/person_search.svg" alt="Search">
+                            </span>
+                            <input type="text" class="input input-user" placeholder="write the name">
+                        </form>
+                    </div>
+                    <div class="posts__container">
+                        <h3>no users to show</h3>
+                    </div>
+                </section>
+                <section class="posts">
+                    <div class="posts__form">
+                        <form action="">
+                            <span class="icon">
+                                <img src="./assets/icons/manage_search.svg" alt="Search">
+                            </span>
+                            <input type="text" class="input input-post" placeholder="find the post">
+                        </form>
+                    </div>
+                    <div class="posts__container">
+                        <h3>no posts to show</h3>
+                    </div>
+                </section>
+            </main>
+            
+        </div>
+        
+    </article>
+    
     
 </body>
 </html>
