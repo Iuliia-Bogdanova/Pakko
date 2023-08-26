@@ -1,0 +1,17 @@
+@import './utils/normalize.css';
+@import './utils/_fonts.scss';
+@import './utils/variables';
+@import './utils/mixins';
+
+.header {
+    background-color: $bg-color;
+    font-size: 18px;
+    
+    h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+        font-family: $font-text;
+        color: $main-text-color;
+        
+    }
+}
