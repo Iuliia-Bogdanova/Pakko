@@ -1,5 +1,5 @@
 @import './utils/normalize.css';
-@import './utils/_fonts.scss';
+@import './utils/fonts';
 @import './utils/variables';
 @import './utils/mixins';
 
@@ -12,6 +12,5 @@
         text-transform: uppercase;
         font-family: $font-text;
         color: $main-text-color;
-        
     }
 }
