@@ -7,46 +7,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./scss/main.css">
 </head>
+
 <body>
-    <article class="page">
+
         <div class="container">
             <header class="header">
                 <h1>reading club blog</h1>
-                <h3>here you can find the best posts of our club members</h3>
+                <h2>here you can find the best posts of our club members</h2>
             </header>
 
             <main class="main">
+
                 <section class="users">
                     <div class="users__form">
                         <form action="">
-                            <span class="icon">
-                                <img src="./assets/icons/person_search.svg" alt="Search">
-                            </span>
-                            <input type="text" class="input input-user" placeholder="write the name">
+                            <div class="box-search">
+                                <button class="icon">
+                                    <img src="./assets/icons/person_search.svg" alt="Search">
+                                </button>
+                                <input type="text" class="input input-user" placeholder="write the name">
+                            </div>
                         </form>
                     </div>
-                    <div class="posts__container">
-                        <h3>no users to show</h3>
+                    
+                    <div class="box__box-users">
+                        <div class="error-user">
+                            <h3>no users to show</h3>
+                        </div>
+                        <div class="list__success-user">
+                            <div class="item-user">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, iste, hic aspernatur at veritatis saepe tempore quas minima magni maiores assumenda ipsa distinctio incidunt quasi rem nemo ipsam rerum eius?</div>
+                            <div class="item-user">user list here</div>
+                            <div class="item-user">user list here</div>
+
+                        </div>
+                        
+                        
                     </div>
                 </section>
+                
                 <section class="posts">
                     <div class="posts__form">
                         <form action="">
-                            <span class="icon">
+                            <div class="box-search">
+                                <button class="icon">
                                 <img src="./assets/icons/manage_search.svg" alt="Search">
-                            </span>
+                            </button>
                             <input type="text" class="input input-post" placeholder="find the post">
+                            </div>
                         </form>
                     </div>
-                    <div class="posts__container">
-                        <h3>no posts to show</h3>
+                    
+                    <div class="box__box-posts">
+                        <div class="error-post">
+                            <h3>no posts to show</h3>
+                        </div>
+                        <div class="list__success-post">
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">post list here</div>
+                            <div class="item-post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi sint a quidem perferendis eveniet repellendus voluptatum velit nemo alias, laudantium temporibus tempora vero repellat molestias hic, ab ullam. Minus, quis.</div>
+                        </div>
                     </div>
                 </section>
             </main>
             
         </div>
-        
-    </article>
     
     
 </body>
