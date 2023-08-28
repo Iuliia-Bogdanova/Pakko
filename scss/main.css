@@ -433,6 +433,33 @@ font-family: 'Poppins', sans-serif; */
   font-style: normal;
   font-display: swap;
 }
+@media (max-width: 480px) {
+  .header {
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  h3 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .input {
+    width: 60%;
+    font-size: 20px;
+  }
+  .list__success-user {
+    font-size: 20px;
+  }
+  .item-post {
+    width: 90%;
+    font-size: 20px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
