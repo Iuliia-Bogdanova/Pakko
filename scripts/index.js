@@ -5,7 +5,7 @@ const boxUser = document.querySelector(".item-user");
 const errorUser = document.querySelector(".error-user");
 const inputUser = document.querySelector(".input-user");
 const searchUserBtn = document.querySelector(".icon-user");
-let newBoxUser = "";
+// let newBoxUser = "";
 
 const boxPosts = document.querySelector(".item-post");
 const errorPost = document.querySelector(".error-post");
@@ -18,12 +18,13 @@ function getUsers() {
         .then((res) => res.json())
         .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
-            newBoxUser = data
+            const newBoxUser = data
             .map((user) => {
                 return `<div class="item-user">${user.firstName}</div>`;
             })
             .join("");
             boxUser.innerHTML = newBoxUser;
+            errorUser.style.display = "none";
         } else {
             errorUser.style.display = "block";
         }
@@ -51,7 +52,7 @@ function searchUsers() {
         .then((res) => res.json())
         .then((data) => {
         if (Array.isArray(data) && data.length > 0) {
-            newBoxUser = data
+            const newBoxUser = data
             .map((user) => {
                 return `<div class="item-user">${user.firstName}</div>`;
             })
