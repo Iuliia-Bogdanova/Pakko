@@ -10,62 +10,62 @@
 
 <body>
 
-        <div class="container">
-            <header class="header">
-                <h1>reading club blog</h1>
-                <h2>here you can find the best posts of our club members</h2>
-            </header>
+    <div class="container">
+        
+        <header class="header">
+            <h1>reading club blog</h1>
+            <h2>here you can find the best posts of our club members</h2>
+        </header>
 
-            <main class="main">
+        <main class="main">
 
-                <section class="users">
-                    <div class="users__form">
-                        <form class="search-user" action="">
-                            <div class="box-search">
-                                <span class="icon">
-                                    <img src="./assets/icons/person_search.svg" alt="Search">
-                                </span>
-                                <input type="text" class="input input-user" value="" placeholder="write the name">
+            <section class="users">
+                <div class="users__form">
+                    <form class="search-user" action="">
+                        <div class="box-search">
+                            <btn class="icon icon-user">
+                                <img src="./assets/icons/person_search.svg" alt="Search">
+                            </btn>
+                            <input type="text" class="input input-user" value="" placeholder="write the name">
+                        </div>
+                        <div class="box-users">
+                            <div class="error-user">
+                                <h3>no users to show</h3>
                             </div>
-                        </form>
-                    </div>
-                    
-                    <div class="box-users">
-                        <div class="error-user">
-                            <h3>no users to show</h3>
-                        </div>
-                        <div class="list__success-user">
-                            <div class="item-user"></div>
-                        </div>
-                    </div>
-                    
-                </section>
-                
-                <section class="posts">
-                    <div class="posts__form">
-                        <form class="search-post" action="">
-                            <div class="box-search">
-                                <span class="icon">
-                                    <img src="./assets/icons/manage_search.svg" alt="Search">
-                                </span>
-                                <input type="text" class="input input-post" value="" placeholder="find the post">
+                            <div class="list__success-user">
+                                <div class="item-user"></div>
                             </div>
-                        </form>
-                    </div>
-                    
-                    <div class="box-posts">
-                        <div class="error-post">
-                            <h3>no posts to show</h3>
                         </div>
-                        <div class="list__success-post">
-                            <div class="item-post"></div>
-                        </div>
-                    </div>
-                </section>
-            </main>
+                    </form>
+                </div>
+            </section>
             
-        </div>
+            <section class="posts">
+                <div class="posts__form">
+                    <form class="search-post" action="">
+                        <div class="box-search">
+                            <span class="icon icon-post">
+                                <img src="./assets/icons/manage_search.svg" alt="Search">
+                            </span>
+                            <input type="text" class="input input-post" value="" placeholder="find the post">
+                        </div>
+                        <div class="box-posts">
+                            <div class="error-post">
+                                <h3>no posts to show</h3>
+                            </div>
+                            <div class="list__success-post">
+                                <div class="item-post"></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        
+        </main>
+        
+    </div>
     
     <script src="./scripts/index.js"></script>
+
 </body>
 </html>
