@@ -1,3 +1,55 @@
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+@font-face {
+  font-family: "Indie Flower", cursive;
+  src: url(../../assets/fonts/MerriweatherSans-SemiBold.woff2) format("woff2");
+  src: url(../../assets/fonts/IndieFlower-Regular.woff) format("woff");
+  src: url(../../assets/fonts/IndieFlower-Regular.ttf) format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather Sans", sans-serif;
+  src: url(../../assets/fonts/MerriweatherSans-Light.woff2) format("woff2");
+  src: url(../../assets/fonts/MerriweatherSans-Light.woff) format("woff");
+  src: url(../../assets/fonts/MerriweatherSans-Light.ttf) format("ttf");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather Sans", sans-serif;
+  src: url(../../assets/fonts/MerriweatherSans-SemiBold.woff2) format("woff2");
+  src: url(../../assets/fonts/MerriweatherSans-SemiBold.woff) format("woff");
+  src: url(../../assets/fonts/MerriweatherSans-SemiBold.ttf) format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins", sans-serif;
+  src: url(../../assets/fonts/MerriweatherSans-Light.woff2) format("woff2");
+  src: url(../../assets/fonts/MerriweatherSans-Light.woff) format("woff");
+  src: url(../../assets/fonts/MerriweatherSans-Light.ttf) format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@media (max-width: 480px) {
+  .header {
+    margin: 10px auto;
+  }
+  h2 {
+    font-size: 24px;
+    padding: 10px 0;
+  }
+  h3 {
+    font-size: 20px;
+    padding: 10px 0;
+  }
+}
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -307,159 +359,6 @@ template {
   display: none;
 }
 
-/* Reset and base styles  */
-* {
-  padding: 0px;
-  margin: 0px;
-  border: none;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-:focus,
-:active {
-  /*outline: none;*/
-}
-
-a:focus,
-a:active {
-  /* outline: none;*/
-}
-
-/* Links */
-a, a:link, a:visited {
-  /* color: inherit; */
-  text-decoration: none;
-  /* display: inline-block; */
-}
-
-a:hover {
-  /* color: inherit; */
-  text-decoration: none;
-}
-
-/* Common */
-aside, nav, footer, header, section, main {
-  display: block;
-}
-
-h1, h2, h3, h4, h5, h6, p {
-  font-size: inherit;
-  font-weight: inherit;
-}
-
-ul, ul li {
-  list-style: none;
-}
-
-img {
-  vertical-align: top;
-}
-
-img, svg {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Form */
-input, textarea, button, select {
-  font-family: inherit;
-  font-size: inherit;
-  color: inherit;
-}
-
-input::-ms-clear {
-  display: none;
-}
-
-button, input[type=submit] {
-  display: inline-block;
-  box-shadow: none;
-  background-color: transparent;
-  background: none;
-  cursor: pointer;
-}
-
-input:focus, input:active,
-button:focus, button:active {
-  outline: none;
-}
-
-button::-moz-focus-inner {
-  padding: 0;
-  border: 0;
-}
-
-label {
-  cursor: pointer;
-}
-
-legend {
-  display: block;
-}
-
-/* font-family: 'Indie Flower', cursive;
-font-family: 'Merriweather Sans', sans-serif;
-font-family: 'Poppins', sans-serif; */
-@font-face {
-  font-family: "Indie Flower", cursive;
-  src: url(../../assets/fonts/IndieFlower-Regular.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Merriweather Sans", sans-serif;
-  src: url(../../assets/fonts/MerriweatherSans-Light.woff2) format("woff2");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Merriweather Sans", sans-serif;
-  src: url(../../assets/fonts/MerriweatherSans-SemiBold.woff2) format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Poppins", sans-serif;
-  src: url(../../assets/fonts/MerriweatherSans-Light.woff2) format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@media (max-width: 480px) {
-  .header {
-    margin: 10px auto;
-  }
-  h2 {
-    font-size: 24px;
-    padding: 10px 0;
-  }
-  h3 {
-    font-size: 20px;
-    padding: 10px 0;
-  }
-  .main {
-    margin-top: 0;
-  }
-  .input {
-    width: 60%;
-    font-size: 20px;
-  }
-  .list__success-user {
-    font-size: 20px;
-  }
-  .item-post {
-    width: 90%;
-    font-size: 20px;
-  }
-}
 * {
   margin: 0;
   padding: 0;
@@ -468,7 +367,7 @@ font-family: 'Poppins', sans-serif; */
 
 body {
   min-height: 100vh;
-  background-image: url(../assets/images/g.jpg);
+  background-image: url(../../assets/img/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -484,7 +383,7 @@ body {
 .header {
   display: flex;
   flex-direction: column;
-  margin: 30px auto 40px;
+  margin: 0px auto 30px;
   padding: 20px 0;
 }
 
@@ -513,7 +412,7 @@ h3 {
   padding: 20px 0;
 }
 
-.main {
+.posts {
   display: flex;
   flex-direction: column;
   justify-content: end;
@@ -532,6 +431,15 @@ h3 {
   transition: transform 0.2s ease;
 }
 
+.icons-posts {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-left: auto;
+  padding: 10px 0;
+  transition: transform 0.2s ease;
+}
+
 .icon {
   background: inherit;
   border: none;
@@ -544,7 +452,7 @@ h3 {
 }
 
 .input {
-  width: 40%;
+  width: 60%;
   padding: 6px 0;
   background-color: inherit;
   border: none;
@@ -553,6 +461,7 @@ h3 {
   font-weight: 300;
   font-size: 24px;
   text-align: right;
+  text-align: left;
   cursor: pointer;
 }
 
@@ -564,54 +473,21 @@ h3 {
   outline: none;
 }
 
-.box-users {
+.posts-form {
   display: flex;
   flex-direction: column;
   justify-content: end;
   text-align: right;
-  padding: 10px 0;
-}
-
-.list__success-user {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  text-align: right;
-  font-family: "Indie Flower", cursive;
-  font-size: 24px;
-  text-align: right;
-  padding: 10px 0;
-  gap: 20px;
-  overflow: hidden;
-}
-
-.item-user {
-  height: 48px;
-  min-width: 280px;
-  padding: 10px 0;
-  margin-left: auto;
-  border-radius: 10px;
-  box-shadow: 0px 5px 10px 2px rgba(237, 234, 232, 0.8) inset;
-  overflow: auto;
-}
-
-.box-posts {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-  text-align: right;
-}
-
-.list__success-post {
-  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 20px;
+  justify-content: flex-end;
+  gap: 70px;
+  margin: 30px 0;
 }
 
-.item-post {
+.card {
   height: 300px;
-  width: 300px;
+  width: 280px;
   justify-content: flex-end;
   align-content: flex-start;
   align-items: flex-start;
@@ -626,15 +502,20 @@ h3 {
   box-shadow: 0px 5px 10px 2px rgba(237, 234, 232, 0.8) inset;
 }
 
-.error-user,
-.error-post {
-  display: none;
+.divider {
+  width: 50%;
+  height: 1px;
+  background-color: #41403f;
+  opacity: 0.4;
+  margin-left: auto;
+}
+
+p {
+  padding-top: 10px;
+  padding-right: 2px;
 }
 
 @media (max-width: 480px) {
-  .header {
-    margin: 10px auto;
-  }
   h2 {
     font-size: 24px;
     padding: 10px 0;
@@ -643,18 +524,11 @@ h3 {
     font-size: 20px;
     padding: 10px 0;
   }
-  .main {
-    margin-top: 0;
+  .posts {
+    margin: 10px auto 30px;
   }
+  .card,
   .input {
-    width: 60%;
-    font-size: 20px;
-  }
-  .list__success-user {
-    font-size: 20px;
-  }
-  .item-post {
-    width: 90%;
     font-size: 20px;
   }
 }/*# sourceMappingURL=main.css.map */
