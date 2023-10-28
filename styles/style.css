@@ -1,0 +1,76 @@
+@import url(./vars.css);
+@import url(./fonts.css);
+@import url(./normalize.css);
+
+/* font-family: 'Shantell Sans', cursive; */
+/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Merriweather Sans', sans-serif; */
+/* font-family: 'Comfortaa', sans-serif; */
+
+/* @font-face {
+    font-family: 'Shantell Sans';
+    /* src: url(../assets/fonts/IndieFlower-Regular.woff2) format('woff2');
+    src: url(../assets/fonts/IndieFlower-Regular.woff) format('woff'); */
+    /* src: url(../assets/fonts/ShantellSans-Medium.ttf) format('ttf');
+    font-weight: 500;
+    font-style: cursive;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url(../assets/fonts/Poppins-Bold.woff2) format('woff2');
+    src: url(../assets/fonts/Poppins-Bold.woff) format('woff');
+    src: url(../assets/fonts/Poppins-Bold.ttf) format('ttf');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+} */ */
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, 
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header__top {
+    background-color: var(--black-color);
+    color: var(--light-color);
+    font-family: 'Comfortaa';
+    font-size: 30px;
+}
+
+.logo__img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.header__content {
+    background-color: var(--dark-color);
+    color: var(--lilac-color);
+}
+
+.header__title,
+.header__subtitle {
+    font-family: var(--font-title);
+    font-size: 40px;
+}
