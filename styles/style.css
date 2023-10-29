@@ -58,11 +58,11 @@ li {
 }
 
 .header__top {
-    padding: 47px 0 45px;
+    padding: 40px 0;
     background-color: var(--black-color);
     color: var(--light-color);
     font-family: var(--font-important);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .header__top-wrap {
@@ -72,16 +72,8 @@ li {
     align-items: center;
 }
 
-.logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-}
-
 .logo__img {
-    width: 80px;
+    width: 120px;
 }
 
 .header__content {
