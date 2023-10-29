@@ -2,35 +2,12 @@
 @import url(./fonts.css);
 @import url(./normalize.css);
 
-/* font-family: 'Shantell Sans', cursive; */
-/* font-family: 'Poppins', sans-serif; */
-/* font-family: 'Merriweather Sans', sans-serif; */
-/* font-family: 'Comfortaa', sans-serif; */
-
-/* @font-face {
-    font-family: 'Shantell Sans';
-    /* src: url(../assets/fonts/IndieFlower-Regular.woff2) format('woff2');
-    src: url(../assets/fonts/IndieFlower-Regular.woff) format('woff'); */
-    /* src: url(../assets/fonts/ShantellSans-Medium.ttf) format('ttf');
-    font-weight: 500;
-    font-style: cursive;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Poppins', sans-serif;
-    src: url(../assets/fonts/Poppins-Bold.woff2) format('woff2');
-    src: url(../assets/fonts/Poppins-Bold.woff) format('woff');
-    src: url(../assets/fonts/Poppins-Bold.ttf) format('ttf');
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap;
-} */ */
-
-
-
 html {
     box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-text);
 }
 
 *, 
@@ -55,7 +32,7 @@ li {
 .header__top {
     background-color: var(--black-color);
     color: var(--light-color);
-    font-family: 'Comfortaa';
+    font-family: var(--font-important);
     font-size: 30px;
 }
 
