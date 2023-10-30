@@ -278,7 +278,7 @@ li {
 
 .benefits__list {
     background-color: var(--dark-color);
-    color: var(--lilac-color);
+    color: var(--light-color);
     padding: 10px 10px 25px 100px;
 }
 
@@ -305,4 +305,62 @@ li {
 
 .carousel {
     margin-bottom: 80px;
+}
+
+.carousel__inner {
+    margin: 0 -7px;
+}
+
+.carousel__item {
+    margin: 0 7px;
+}
+
+.carousel__item-box {
+    border: 2px solid var(--lilac-color);
+    border-radius: 16px;
+    padding: 6px 6px 16px 6px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.carousel__item-box:hover {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+    border-color: var(--dark-color);
+    transform: scale(0.98);
+}
+
+.carousel__item-img {
+    max-width: 100%;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 23px;
+}
+
+.carousel__item-title {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+
+.carousel .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.carousel .slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    background-color: var(--lilac-color);
+    width: 40px;
+    height: 2px;
+    transition: all .5s;
+}
+
+.carousel .slick-active button {
+    background-color: var(--dark-color);
+    height: 3px;
 }
