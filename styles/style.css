@@ -20,12 +20,10 @@ body {
 
 body::-webkit-scrollbar {
     width: 8px;
-    /* height: 6px; */
 }
 
 body::-webkit-scrollbar-thumb {
     background-color: var(--lilac-color);
-    /* border: 1px solid var(--dark-color); */
     border-radius: 10px;
 }
 
@@ -329,7 +327,6 @@ li {
     padding: 6px 6px 16px 6px;
     text-align: center;
     transition: all .5s;
-    /* cursor: pointer; */
 }
 
 .carousel__item.active .carousel__item-box {
@@ -338,13 +335,6 @@ li {
     border-color: var(--dark-color);
     transform: scale(0.95);
 }
-
-/* .carousel__item-box:hover {
-    background-color: var(--dark-color);
-    color: var(--light-color);
-    border-color: var(--dark-color);
-    transform: scale(0.98);
-} */
 
 .carousel__item-img {
     max-width: 100%;
@@ -420,7 +410,6 @@ li {
     padding: 50px;
     gap: 30px;
     background-color: var(--dark-color);
-    /* border-radius: 10px; */
 }
 
 .contacts__title {
@@ -455,7 +444,6 @@ li {
     font-family: var(--font-important);
     color: var(--light-color);
     padding: 30px 0;
-    /* font-size: 40px; */
 }
 
 .footer__logo {
@@ -471,4 +459,8 @@ li {
 
 .logo-footer {
     font-size: 24px;
+}
+
+.footer__copyright {
+    font-size: 18px;
 }
