@@ -223,20 +223,48 @@
                         <h3 class="contacts__title">оставить заявку</h3>
                         <input class="contacts__input" type="text" placeholder="как вас зовут?">
                         <input class="contacts__input" type="text" placeholder="как с вами связаться?">
-                        <a href="#" class="contacts__btn">
-                            <button class="contacts__btn button" type="submit">оставить заявку</button>
+                        <a class="contacts__btn">
+                            <button class="contacts__btn button" type="submit" onclick="window.open('https://docs.google.com/forms/d/e/your_form_id/viewform')">оставить заявку</button>
                         </a>
                     </form>
                 </div>
             </section>
-
+<!-- В этом коде window.open() - это функция JavaScript, которая открывает новую вкладку браузера с указанным URL. Вместо your_form_id вставьте идентификатор вашей формы Google Forms. -->
         </div>
     </main>
 
+    <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__logo">
+                        <img class="logo__img img-footer" src="./assets/icons/Raccoons-shop.svg" alt="Logo">
+                        <a class="logo logo-footer" href="#">
+                            <p class="logo__text">Raccoon's Shop</p>
+                        </a>
+                    </div>
+                    <div class="social">
+                        <a class="social__link" href="https://www.instagram.com/raccoons_shop_/" target="_blank">
+                            <img class="social__img" src="./assets/icons/instagram.svg" alt="Instagram">
+                        </a>
+                        <a class="social__link" href="tel:+79658455427" target="_blank">
+                            <img class="social__img" src="./assets/icons/phone-call.svg" alt="Phone">
+                        </a>
+                        <a class="social__link" href="mailto:masha2bogdanova@gmail.com" target="_blank">
+                            <img class="social__img" src="./assets/icons/mail.svg" alt="Mail">
+                        </a>
+                        <a class="social__link" href="https://t.me/cOmmon_rAccoon" target="_blank">
+                            <img class="social__img" src="./assets/icons/telegram.svg" alt="Telegram">
+                        </a>
+                    </div>
+                    <a class="footer__copy" href="https://github.com/Iuliia-Bogdanova">© Iuliia Bogdanova, 2023</a>
+                </div>
+            </div>
+        </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./js/slick.min.js"></script>
     <script src="./js/jquery.fancybox.min.js"></script>
     <script src="./js/main.js"></script>
+
 </body>
 </html>  
