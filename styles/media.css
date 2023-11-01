@@ -1,0 +1,162 @@
+@media (max-width: 1024px) {
+    .header__title {
+    padding-top: 0;
+    font-size: 50px;
+    }
+
+    .header__subtitle {
+        max-width: 60%;
+        font-size: 32px;
+    }
+
+    .header__text {
+        max-width: 60%;
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .header__images {
+        width: 360px;
+        left: 60%;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__top {
+        padding: 30px 0;
+        font-size: 32px;
+    }
+
+    .logo__img {
+        width: 80px;
+    }
+
+    .header__title {
+        font-size: 40px;
+    }
+
+    .header__subtitle {
+        font-size: 30px;
+    }
+
+    .header__text {
+        max-width: 60%;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .social {
+        padding: 30px 0 30px;
+    }
+
+    .header__images {
+        width: 300px;
+    }
+}
+
+@media (max-width: 560px) {
+    .header__top {
+    font-size: 28px;
+    }
+
+    .logo__img {
+        width: 60px;
+    }
+
+    .header__subtitle {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        padding: 10px 40px;
+    }
+
+    .social {
+        gap: 40px;
+    }
+
+    .social__img {
+        width: 32px;
+        height: 32px;
+    }
+
+    .header__images {
+        width: 260px;
+        top: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .header__top {
+        font-size: 22px;
+    }
+
+    .logo__img {
+        width: 40px;
+    }
+
+    .header__title {
+        font-size: 32px;
+    }
+
+    .header__subtitle {
+        max-width: 90%;
+    }
+
+    .header__text {
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+
+    .header__images {
+        width: 220px;
+        top: 40%;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__title {
+        font-size: 28px;
+    }
+
+    .header__subtitle {
+        max-width: 100%;
+        font-size: 22px;
+    }
+
+    .header__text {
+        font-size: 20px;
+    }
+
+    .button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .social {
+        gap: 30px;
+    }
+
+    .social__img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__images {
+        width: 200px;
+        top: 30%;
+    }
+}
+
+@media (max-width: 320px) {
+    .header__text {
+        margin-bottom: 30px;
+    }
+
+    .button {
+        display: none;
+    }
+    .social {
+        justify-content: center;
+    }
+}
