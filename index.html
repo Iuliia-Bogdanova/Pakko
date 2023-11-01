@@ -31,9 +31,9 @@
                     <p class="header__text">кольца, серьги, браслеты, ожерелья, кулоны, брелочки</p>
                     <a class="button" href="https://t.me/cOmmon_rAccoon" target="_blank">написать еноту</a>
                     <div class="social">
-                        <a class="social__link" href="https://www.instagram.com/raccoons_shop_/" target="_blank">
+                        <!-- <a class="social__link" href="https://www.instagram.com/raccoons_shop_/" target="_blank">
                             <img class="social__img" src="./assets/icons/instagram.svg" alt="Instagram">
-                        </a>
+                        </a> -->
                         <a class="social__link" href="tel:+79658455427" target="_blank">
                             <img class="social__img" src="./assets/icons/phone-call.svg" alt="Phone">
                         </a>
@@ -51,9 +51,9 @@
     </header>
 
     <main class="main">
-        <div class="container">
         
-            <section class="services">
+        <section class="services">
+            <div class="container">
                 <h2 class="title">что умеет енот</h2>
                 <div class="services__inner">
                     <div class="services__content">
@@ -102,40 +102,44 @@
                         
                     </ol>
                 </div>
-            </section>
+            </div>
+            
+        </section>
 
-            <section class="benefits">
-                    <div class="benefits__inner">
-                        <div class="benefits__images-wrapper">
-                            <img class="benefits__images" src="./assets/img/benefits.jpg" alt="Jewelry">
-                        </div>
-                        <div class="benefits content">
-                            <h2 class="title benefits__title">чем удивляет енот</h2>
-                            <ul class="benefits__list">
-                                <li class="benefits__list-item">
-                                    <p class="benefits__item-num">250</p>
-                                    <p class="benefits__item-title">украшений и приколюх</p>
-                                    <p class="benefits__item-text">Большой выбор уникальных ожерелий, колец, браслетов, брелочков</p>
-                                </li>
-                                <li class="benefits__list-item">
-                                    <p class="benefits__item-num">3</p>
-                                    <p class="benefits__item-title">года творю</p>
-                                    <p class="benefits__item-text">Всегда на связи, снимаю видео процесса, можно внести изменения в заказ</p>
-                                </li>
-                                <li class="benefits__list-item">
-                                    <p class="benefits__item-num">100 %</p>
-                                    <p class="benefits__item-title">радости заказчиков</p>
-                                    <p class="benefits__item-text">Отправляю украшения в любой город РФ и мира</p>
-                                </li>
-                            </ul>
-                        </div>
+        <section class="benefits">
+            <div class="container">
+                <div class="benefits__inner">
+                    <div class="benefits__images-wrapper">
+                        <img class="benefits__images" src="./assets/img/benefits.jpg" alt="Jewelry">
                     </div>
-            </section>
+                    <div class="benefits content">
+                        <h2 class="title benefits__title">чем удивляет енот</h2>
+                        <ul class="benefits__list">
+                            <li class="benefits__list-item">
+                                <p class="benefits__item-num">150</p>
+                                <p class="benefits__item-title">украшений и приколюх</p>
+                                <p class="benefits__item-text">Большой выбор уникальных ожерелий, колец, браслетов, брелочков</p>
+                            </li>
+                            <li class="benefits__list-item">
+                                <p class="benefits__item-num">3</p>
+                                <p class="benefits__item-title">года творю</p>
+                                <p class="benefits__item-text">Всегда на связи, снимаю видео процесса, можно внести изменения в заказ</p>
+                            </li>
+                            <li class="benefits__list-item">
+                                <p class="benefits__item-num">100 %</p>
+                                <p class="benefits__item-title">радости заказчиков</p>
+                                <p class="benefits__item-text">Отправляю украшения в любой город РФ и мира</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section class="carousel">
+        <section class="carousel">
+            <div class="container">
                 <h2 class="title">украшения и приколюхи от енота</h2>
                 <div class="carousel__inner">
-                    
                     <div class="carousel__item">
                         <div class="carousel__item-box">
                             <img class="carousel__item-img" src="./assets/carousel/mushroom-earrings.jpg" alt="Mushroom earrings">
@@ -192,11 +196,12 @@
                             <p class="carousel__item-text">300 руб.</p>
                         </div>
                     </div>
-
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section class="contacts">
+        <section class="contacts">
+            <div class="container">
                 <div class="contacts__inner">
                     <div class="contacts__info">
                         <h2 class="title">контакты енота</h2>
@@ -223,14 +228,17 @@
                         <h3 class="contacts__title">оставить заявку</h3>
                         <input class="contacts__input" type="text" placeholder="как вас зовут?">
                         <input class="contacts__input" type="text" placeholder="как с вами связаться?">
-                        <a class="contacts__btn">
+                        <a class="contacts__btn button" type="submit" role="button" target="_blank" onclick="window.open('https://docs.google.com/forms/d/e/your_form_id/viewform');"  aria-label="Открыть форму заявки в новой вкладке">оставить заявку</a>
+
+                        <!-- <a class="contacts__btn">
                             <button class="contacts__btn button" type="submit" onclick="window.open('https://docs.google.com/forms/d/e/your_form_id/viewform')">оставить заявку</button>
-                        </a>
+                        </a> -->
                     </form>
                 </div>
-            </section>
-<!-- В этом коде window.open() - это функция JavaScript, которая открывает новую вкладку браузера с указанным URL. Вместо your_form_id вставьте идентификатор вашей формы Google Forms. -->
-        </div>
+            </div>
+        </section>
+<!-- window.open() - функция JavaScript, открывает новую вкладку браузера с указанным URL. Вместо your_form_id вставить идентификатор нужной формы Google Forms. -->
+        
     </main>
 
     <footer class="footer">
@@ -243,9 +251,9 @@
                         </a>
                     </div>
                     <div class="social">
-                        <a class="social__link" href="https://www.instagram.com/raccoons_shop_/" target="_blank">
+                        <!-- <a class="social__link" href="https://www.instagram.com/raccoons_shop_/" target="_blank">
                             <img class="social__img" src="./assets/icons/instagram.svg" alt="Instagram">
-                        </a>
+                        </a> -->
                         <a class="social__link" href="tel:+79658455427" target="_blank">
                             <img class="social__img" src="./assets/icons/phone-call.svg" alt="Phone">
                         </a>
