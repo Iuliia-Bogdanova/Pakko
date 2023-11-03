@@ -262,12 +262,12 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 30px;
 }
 
 .benefits__images-wrapper {
-    width: 400px; 
-    height: 440px; 
+    width: 30%;
+    height: 430px; 
     margin-right: auto;
     border-radius: 30%; 
     overflow: hidden; 
