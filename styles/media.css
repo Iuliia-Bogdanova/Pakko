@@ -19,6 +19,40 @@
         width: 360px;
         left: 60%;
     }
+
+    .title {
+        font-size: 32px;
+        line-height: 48px;
+        margin-bottom: 30px;
+    }
+
+    .title::after {
+        width: 60px;
+    }
+
+    .services__content-title {
+        font-size: 24px;
+    }
+
+    .services__content-texbox {
+        margin-bottom: 36px;
+    }
+
+    .services__item {
+        padding-left: 90px;
+    }
+
+    .services__item::before {
+        font-size: 32px;
+    }
+
+    .services__item-title {
+        font-size: 22px;
+    }
+
+    .services__item-text {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -52,6 +86,25 @@
     .header__images {
         width: 300px;
     }
+
+    .services__inner {
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .services__content {
+        width: 100%;
+    }
+
+    .services__list {
+        width: 80%;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    .services__item:hover {
+        margin-left: -10%;
+    }
 }
 
 @media (max-width: 560px) {
@@ -84,6 +137,37 @@
         width: 260px;
         top: 50%;
     }
+
+    .title {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+
+    .title::after {
+        width: 40px;
+        top: 20px;
+    }
+
+    .services__content-title {
+        font-size: 22px;
+    }
+
+    .services__content-texbox {
+        margin-bottom: 30px;
+    }
+
+    .services__item {
+        padding-left: 80px;
+    }
+
+    .services__item::before {
+        font-size: 32px;
+    }
+
+    .services__item-title {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -111,6 +195,34 @@
     .header__images {
         width: 220px;
         top: 40%;
+    }
+
+    .main {
+        padding-top: 40px;
+    }
+
+    .services__content-title {
+        font-size: 20px;
+    }
+
+    .services__content-texbox {
+        margin-bottom: 20px;
+    }
+
+    .services__list {
+        width: 90%;
+    }
+
+    .services__item {
+        padding-left: 70px;
+    }
+
+    .services__item::before {
+        font-size: 30px;
+    }
+
+    .services__item-title {
+        font-size: 20px;
     }
 }
 
@@ -158,5 +270,9 @@
     }
     .social {
         justify-content: center;
+    }
+
+    .services-btn {
+        display: block;
     }
 }
