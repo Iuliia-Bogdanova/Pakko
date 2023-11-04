@@ -341,7 +341,7 @@ li {
 .carousel__item-img {
     max-width: 100%;
     border-radius: 10px 10px 0 0;
-    margin-bottom: 23px;
+    margin: 0 auto 23px;
 }
 
 .carousel__item-title {
@@ -414,6 +414,7 @@ li {
     padding: 50px;
     gap: 40px;
     background-color: var(--dark-color);
+    
 }
 
 .contacts__form:before {
@@ -421,10 +422,11 @@ li {
     background-color: var(--dark-color);
     position: absolute;
     height: 100%;
-    width: 100vw;
+    width: 100%;
     top: 0;
     left: 99%;
     z-index: -1;
+    overflow-x: hidden;
 }
 
 .contacts__title {
