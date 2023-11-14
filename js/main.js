@@ -9,6 +9,7 @@ $(".carousel__inner")
         focusOnSelect: true,
         speed: 1000,
         cssEase: "linear",
+        swipe: true,
         responsive: [
             {
                 breakpoint: 940,
