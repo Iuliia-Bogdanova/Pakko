@@ -17,6 +17,7 @@ body {
     overflow-x: hidden;
     background-color: var(--light-color);
     font-family: var(--font-text);
+    user-select: none;
 }
 
 body::-webkit-scrollbar {
@@ -414,7 +415,6 @@ li {
     padding: 50px;
     gap: 40px;
     background-color: var(--dark-color);
-    
 }
 
 .contacts__form:before {
@@ -426,7 +426,6 @@ li {
     top: 0;
     left: 99%;
     z-index: -1;
-    overflow-x: hidden;
 }
 
 .contacts__title {
