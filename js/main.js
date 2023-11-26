@@ -1,6 +1,6 @@
 $(".carousel__inner")
     .slick({
-        mobileFirst: true,
+        // mobileFirst: true,
         arrows: false,
         dots: true,
         slidesToShow: 3,
