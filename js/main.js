@@ -10,6 +10,7 @@ $(".carousel__inner")
         speed: 500,
         cssEase: "linear",
         swipe: true,
+        swipeToSlide: true,
         responsive: [
             {
                 breakpoint: 940,
