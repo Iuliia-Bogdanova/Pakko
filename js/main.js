@@ -7,7 +7,7 @@ $(".carousel__inner")
         centerMode: true,
         centerPadding: "0px",
         focusOnSelect: true,
-        speed: 1000,
+        speed: 500,
         cssEase: "linear",
         swipe: true,
         responsive: [
